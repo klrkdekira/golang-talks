@@ -260,7 +260,8 @@ Might make me sound like a fanboy, but these trade-offs never bother me.
 
 All because of the garbage collector
 
-Not a criticism, just getting the facts straight.
+- Performance is not guaranteed.
+- Heap is expensive for low memory.
 
 * Tips and Tricks
 
@@ -268,10 +269,6 @@ Not a criticism, just getting the facts straight.
 - Follow the golang style guide, if you're lazy, bind gofmt to your save-hook.
 - When in doubt, use the standard libraries!!!
 - Follow interfaces from standard libraries, nothing goes wrong :)
-
-
-Inline
-Variadic function
 
 * Tools
 
