@@ -297,11 +297,3 @@ gofmt
 .link https://golang.org/doc/effective_go.html Effective Go
 .link http://www.golangweekly.com/ Golang Weekly
 .link https://gobyexample.com/ Go by Example
-
-* Reminder
-
-What else?
-
-- interface type
-- I will not cover about short hands
-- I will not stating the obvious
