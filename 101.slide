@@ -1,0 +1,307 @@
+Golang 101 for Programmers
+Tags: go golang
+
+Chee Leong
+klrkdekira@gmail.com
+@tztzel
+
+* Introduction
+
+Designed for the web.
+
+Nothing new or fancy, just doing its job well.
+
+.image appenginegophercolor.jpg
+
+* Notable Users
+
+.image logos/google.png _ 150
+
+.image logos/docker.png _ 150
+
+.image logos/cf.jpg _ 150
+
+.image logos/bitly.png _ 150
+
+and more...
+
+* And yours truly, Tuxuri
+
+.image logos/tuxuri.png
+
+* Hello World!
+
+.play snippets/hello.go
+
+or
+
+.play snippets/rchan.go
+
+* Variables
+
+.code snippets/vars.go /START OMITX/,/END OMITX/
+
+is the same as
+
+.code snippets/vars.go /START OMITY/,/END OMITY/
+
+is the same as
+
+.code snippets/vars.go /START OMITZ/,/END OMITZ/
+
+We'll use the last one for the following demo
+
+* Caution
+
+For map and channel
+
+Map
+
+.code snippets/vars.go /START OMITmap/,/END OMITmap/
+
+Channel
+
+.code snippets/vars.go /START OMITc/,/END OMITc/
+
+Code will compile even if you failed to do this, but will cause fatal error during execution.
+
+* If/Else
+
+As usual
+
+.play snippets/ifelse.go /START OMIT/,/END OMIT/
+
+* Loop
+
+No while loop, only for
+
+.play snippets/for.go  /START OMIT/,/END OMIT/
+
+* Function
+
+.code snippets/func.go /START OMITa/,/END OMITa/
+
+Function as value (ahem, closure)
+
+.play snippets/closure.go /START OMIT/,/END OMIT/
+
+# Anonymous function
+
+# .play snippets/anony.go /START OMIT/,/END OMIT/
+
+* Methods
+
+.play snippets/methods.go
+
+* Works on any type
+
+Extend types
+
+.play snippets/anymethods.go
+
+* Interfaces
+
+.code snippets/interfaces.go /START OMIT/,/END OMIT/
+
+* Usage
+
+.play snippets/interfaces.go /START OMITu/,/END OMITu/
+
+* For arbitrary data
+
+Because all types implement interface{}
+
+.play snippets/abdata.go /START OMIT/,/END OMIT/
+
+* Pointer
+
+.play snippets/pointer.go
+
+* Defer
+
+Function that executes after the main function ends, *where it resides*
+
+.play snippets/defer.go /START OMIT/,/END OMIT/
+
+Please don't abuse it
+
+* Go Channel
+
+Cheap pipe for buffering
+
+.play snippets/channel.go
+
+* Goroutines
+
+.image goroutine.jpg
+
+Legend says, the goroutines are actually groups of hardworking gophers.
+Invoked with the command of *go*
+
+* Demo
+
+.play snippets/routine.go
+
+* Goroutine with Channel
+
+.play snippets/rchan.go
+
+* Error Handling
+
+* Panic
+
+Exit with stacktrace.
+
+.play snippets/panic.go
+
+* Recover
+.play snippets/recover.go
+
+But of course, we normally only need to do it once.
+
+* Passed as Value
+
+.play snippets/error.go /START OMIT/,/END OMIT/
+
+Of course you can ignore errors, but please don't.
+Don't do it just because you can.
+
+* Web
+
+* Use net/http!!!
+
+.image go_webframework.jpg
+
+Trust me, you don't need a web framework.
+Just follow the http.Handler standard, it'll always compatible with most libraries/frameworks/toolkits.
+
+* Basic example
+
+.play snippets/basichttp.go
+
+* What else I use
+
+Negroni for dirt simple middleware support.
+Gorilla Mux for path pattern matching (for RESTful APIs)
+
+* Negroni
+
+.play snippets/negro.go
+
+* Gorilla Mux
+
+.play snippets/gor.go
+
+* Both
+
+.play snippets/mixed.go
+
+* Mobile
+
+Since version 1.4, added Android support.
+
+Able to compile to Android APK and library (.so) with NDK.
+
+.play snippets/mobile.go /START OMIT/,/END OMIT/
+
+.play snippets/animation.go /START OMIT/,/END OMIT/
+
+The libraries for mobile development is still under heavy development.
+
+* Namespace & Packages
+
+.code snippets/package.go
+
+.html package.html
+
+.code snippets/import.go
+
+* Module Export
+
+Only capitalized variables will be exported
+
+.code snippets/export.go
+
+* The Good
+
+- Huge useful standard library
+- Fast compile time
+- Static linked binary
+- Cheap concurrency via goroutine
+- A lot of good helper tools, godoc, gofmt, golint etc
+
+* The Bad
+
+* No generics
+
+.code snippets/compare.go /START OMIT/,/END OMIT/
+
+No cheap way for code reuse.
+Use interfaces!
+
+I'll let you guys argue about it.
+
+* More bad
+
+- Lack of error context
+- Try to serialize arbitrary json :)
+- Interface type is expensive
+- No third party package versioning
+
+Might make me sound like a fanboy, but these trade-offs never bother me.
+
+* Misconception
+
+- Not a system language.
+- Not for embedded system (No, not for your robots)
+- Not suitable for realtime application.
+
+* Why?
+
+All because of the garbage collector
+
+Not a criticism, just getting the facts straight.
+
+* Tips and Tricks
+
+- Learn about idiomatic golang
+- Follow the golang style guide, if you're lazy, bind gofmt to your save-hook.
+- When in doubt, use the standard libraries!!!
+- Follow interfaces from standard libraries, nothing goes wrong :)
+
+
+Inline
+Variadic function
+
+* Tools
+
+gofmt
+
+.link https://github.com/nsf/gocode gocode
+
+.link https://github.com/bradfitz/goimports goimport
+
+.link http://godoc.org/golang.org/x/tools/present present (powers this presentation)
+
+.link https://godoc.org/golang.org/x/mobile mobile libraries
+
+.link https://godoc.org/golang.org/x/mobile/cmd/gobind gobind
+
+.link http://www.gorillatoolkit.org gorilla web toolkit
+
+.link https://github.com/codegangsta/negroni negroni
+
+* Useful Resources
+
+.link http://golang.org/pkg/ API Reference
+.link https://golang.org/doc/effective_go.html Effective Go
+.link http://www.golangweekly.com/ Golang Weekly
+.link https://gobyexample.com/ Go by Example
+
+* Reminder
+
+What else?
+
+- interface type
+- I will not cover about short hands
+- I will not stating the obvious
