@@ -1,3 +1,189 @@
+A Quick Start to Go
+Tips and tricks
+Tags: go, golang
+
+Chee Leong
+Tuxuri
+klrkdekira@gmail.com
+https://github.com/klrkdekira
+@tztzel
+
+* What is Go?
+
+- Garbage collected
+
+- Compiled
+
+- Statically typed
+
+- Concurrent
+
+- Simple
+
+- C like syntax
+
+- Code simplicity and readability above all
+
+* What is not to expect?
+
+- Object-oriented
+
+- Functional
+
+- Sugar-laced
+
+- Innovative, nothing is new in Go
+
+- Generics
+
+* Simplicity
+
+- Few reserved keywords, simple data types
+
+- No exception, errors are passed as values
+
+- Go 1.x is guaranteed backward compatibility
+
+- Low skill barrier between beginner and the skilled
+
+* Battery included
+
+- Go is powered by Go
+
+- The standard library is enough for most use
+
+- Coding standard
+
+- Code formatter, linter, checker, code generator, tester, etc comes with Go
+
+* Tips
+
+* Compilation
+
+- Go compiles fast
+
+.image images/fast.png _ 900
+
+- Use *go run* for development
+
+.image images/run.png _ 900
+
+* Golang binary is statically linked
+
+.image images/static.png _ 900
+
+* Cross compilation is battery included
+
+- 1 code base to rule them all
+
+.image images/cross.png _ 900
+
+.caption Reference [[https://golang.org/doc/install/source#environment][More Environmental Variables]]
+
+* Like what you see?
+
+* Avoid CGO
+
+- Avoid C binding as much as possible
+
+* Reduce binary size
+
+.image images/smaller.png _ 900
+
+.caption Reference [[https://golang.org/cmd/link/][Linker]]
+
+* Editor integration
+
+- Install Golang plugin for your IDE
+
+.image images/ide.png _ 600
+
+.caption Taken from [[https://github.com/Microsoft/vscode-go][Visual Studio Code]]
+
+* Package installation
+
+- For package and command
+
+  go get github.com/klrkdekira/jsonip
+
+- For command
+
+  go get github.com/klrkdekira/jsonip/cmd/jsonip
+
+- How it works?
+
+* Explanation
+
+- Every project is an application or a library
+
+- Without doing anything boilerplates
+
+* For package
+
+- To export a function, capitalize the name, vice versa
+
+.code codes/export.go
+
+* Auto documentation
+
+- For local machine, run *go* *doc* at project
+
+- For hosted project, use https://godoc.org
+
+.image images/godoc.png _ 700
+
+.caption Taken from [[https://godoc.org/github.com/klrkdekira/jsonip][JSONIP]]
+
+* Documentation Source Code
+
+- Clicking the type or function will link you to the source code
+
+.image images/doclink.png _ 800
+
+- Works for the standard library. (https://golang.org/pkg/)
+
+* Gotchas
+
+- cgo is not Go
+
+- Bad news for the single liners
+
+- A little bit of copying is not a bad thing
+
+- Yes, boilerplate is unavoidable
+
+- If it compiles it works
+
+- Unless NPE
+
+- HTTP Client/Server (including HTTP2)
+
+* More tips
+
+- If possible, don't ignore errors
+
+- It's fine to use global
+
+- If you need something, first look at the standard library
+
+- _for_ loop is fast, use it
+
+- Use interface to reduce boilerplate
+
+- For interface, try to be compatible with standard library
+
+* Interested? Quickstart
+
+- [[https://tour.golang.org/][Go Tour]]
+
+  For offline version (as of 1.8.1)
+      go tool tour
+
+- [[https://gobyexample.com/][GoByExample]]
+
+- [[https://golangweekly.com/][Golang Weekly]]
+
+* Introduction
 - brief introduction
 - cross compile
 linker flag
