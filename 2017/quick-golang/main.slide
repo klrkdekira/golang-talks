@@ -1,0 +1,26 @@
+- brief introduction
+- cross compile
+linker flag
+
+cgo is not go
+
+- standard library
+- godoc
+- exported
+- binary installation
+- profiler
+- prometheus
+- http server
+
+without overwhelming yourself.
+
+- https://github.com/golang/go/wiki/Projects
+- golang weekly
+https://blog.golang.org/
+
+release cycle
+https://github.com/golang/go/wiki/Go-Release-Cycle
+
+compatibility
+
+- projects
