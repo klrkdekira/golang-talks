@@ -36,7 +36,11 @@ https://github.com/klrkdekira
 
 - Generics
 
+- Gooby on Gale
+
 * Simplicity
+
+- Most are decided by the language designers
 
 - Few reserved keywords, simple data types
 
@@ -142,21 +146,67 @@ https://github.com/klrkdekira
 
 - Works for the standard library. (https://golang.org/pkg/)
 
+* Test and Benchmark included
+
+* Go Playground
+
+- https://play.golang.org/
+
+- Quick PoC/prototyping (standard library only)
+
+.image images/playground.png _ 400
+
+* This presentation is powered by Go
+
+- present tool
+
+  https://godoc.org/golang.org/x/tools/cmd/present
+
+  Documentation
+
+  https://godoc.org/golang.org/x/tools/present
+
+- This slide is also an article
+
+* Why use present?
+
+- This is why
+
+.play codes/reasons.go
+
+* Profiling
+
+- again, battery included
+
+* Remote Profiling
+
+* expvar
+
+- https://golang.org/pkg/expvar/
+
+* Prometheus and Grafana (3rd Party)
+
+
 * Gotchas
 
 - cgo is not Go
 
+- use *defer* for cleanups
+
 - Bad news for the single liners
 
-- A little bit of copying is not a bad thing
+  A little bit of copying is not a bad thing
 
-- Yes, boilerplate is unavoidable
+  Yes, boilerplate is unavoidable
 
 - If it compiles it works
 
-- Unless NPE
+  Unless NPE
 
 - HTTP Client/Server (including HTTP2)
+
+- For race detection, Warning!
+  go run -race
 
 * More tips
 
@@ -182,31 +232,3 @@ https://github.com/klrkdekira
 - [[https://gobyexample.com/][GoByExample]]
 
 - [[https://golangweekly.com/][Golang Weekly]]
-
-* Introduction
-- brief introduction
-- cross compile
-linker flag
-
-cgo is not go
-
-- standard library
-- godoc
-- exported
-- binary installation
-- profiler
-- prometheus
-- http server
-
-without overwhelming yourself.
-
-- https://github.com/golang/go/wiki/Projects
-- golang weekly
-https://blog.golang.org/
-
-release cycle
-https://github.com/golang/go/wiki/Go-Release-Cycle
-
-compatibility
-
-- projects
