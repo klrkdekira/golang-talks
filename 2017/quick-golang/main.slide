@@ -146,7 +146,23 @@ https://github.com/klrkdekira
 
 - Works for the standard library. (https://golang.org/pkg/)
 
-* Test and Benchmark included
+* Test Included
+
+.image images/project.png _ 900
+
+.code codes/tests.go
+
+* Test in Action
+
+.image images/tests.png _ 1000
+
+* Benchmark Included
+
+.code codes/benchmark.go
+
+* Benchmark in Action
+
+.image images/bench.png _ 1000
 
 * Go Playground
 
@@ -168,6 +184,9 @@ https://github.com/klrkdekira
 
 - This slide is also an article
 
+- Like godoc, there's a cloud service
+.link http://go-talks.appspot.com/github.com/klrkdekira/golang-talks/2017/quick-golang/main.slide
+
 * Why use present?
 
 - This is why
@@ -178,14 +197,63 @@ https://github.com/klrkdekira
 
 - again, battery included
 
+.code codes/pprof_file.go
+
+* Profiling in action
+
+.image images/pprof.png _ 600
+
+* Profile Map
+
+.image images/pprof.svg 500 500
+
 * Remote Profiling
 
-* expvar
+.code codes/pprof.go
 
-- https://golang.org/pkg/expvar/
+* Remote Profiling in action
+
+.image images/pprof_online.png _ 900
+
+* Remote Profiling endpoints
+
+- http://localhost:6060/debug/pprof/heap
+
+- http://localhost:6060/debug/pprof/profile
+
+- http://localhost:6060/debug/pprof/block
+
+- http://localhost:6060/debug/pprof/trace?seconds=5
+
+* Tracing
+
+- expvar
+
+.code codes/expvar.go
+
+* Expvar Output
+
+.image images/vars.png _ 1000
+
+* Tracing with Instruments (3rd party)
+
+.image images/instruments-results.png _ 500
+
+.caption _Reference_ [[https://rakyll.org/instruments/][Using Instruments to profile Go programs]]
+
+- for Linux, use *perf*
 
 * Prometheus and Grafana (3rd Party)
 
+.code codes/prom.go
+
+* Prometheus Dashboard
+
+.image images/prometheus.png _ 1000
+
+* Prometheus <3 Grafana
+
+.image images/grafana.png _ 1000
 
 * Gotchas
 
