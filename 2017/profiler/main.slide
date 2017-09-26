@@ -1,0 +1,73 @@
+The Show of Profile
+Tags: go, golang
+
+Chee Leong
+Tuxuri
+klrkdekira@gmail.com
+https://github.com/klrkdekira
+@tztzel
+
+* "The most depressing thing about life as a programmer, I think, is if you’re faced with a chunk of code that either someone else wrote or, worse still, you wrote yourself but no longer dare to modify. That’s depressing." - Simon Peyton Jones
+
+* A blackbox program
+
+.play codes/slug.go /START MAIN/,/END MAIN/
+
+* Import profiler
+
+.code codes/slug.go /START IMPORT/,/END IMPORT/
+
+Just add in *net/http/profiler*
+
+* Profiling a live system
+
+*For CPU*
+
+  go tool pprof http://127.0.0.1:8080/debug/pprof/profile
+
+*For Memory*
+
+  go tool pprof http://127.0.0.1:8080/debug/pprof/heap
+
+* What is wasteCycle
+
+.code codes/slug.go /START WASTE/,/END WASTE/
+
+Your `wasteCycle` might be your misbehaving codes.
+
+* Profiler
+
+Out of the box support
+
+- [[https://golang.org/pkg/runtime/pprof/][runtime/pprof]]
+- [[https://golang.org/pkg/net/http/pprof/][net/http/pprof]]
+- [[https://golang.org/cmd/go/#hdr-Description_of_testing_flags][test package]]
+
+* However...
+
+Profiling is post mortem, test or benchmark can avoid most of it
+
+* Benchmark 
+
+.code codes/slug_test.go /START BENCH/,/END BENCH/
+
+  go test -v -benchmem -bench .
+
+  go test -v -memprofile=mem.prof -cpuprofile=cpu.prof -benchmem -bench .
+
+* For more
+
+- https://articles.engineers.my/golang-profiling-and-handling-http-disconnection/
+- https://blog.golang.org/profiling-go-programs
+
+* This needs to be finished within 30 minutes.
+
+What should I prepare.
+Sample project that doesn't work. Put each amendment into individual project.
+Show something that drains memory, bad string allocation.
+
+Golang profiler, show problematic program and how to identify them.
+Show hook via http handlers.
+Since 1.9, profiling symbols are built-in.
+Profiler is for post mortem analysis.
+Show profiling via benchmark, also show benchmark.
