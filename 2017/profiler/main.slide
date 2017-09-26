@@ -47,7 +47,7 @@ Out of the box support
 
 Profiling is post mortem, test or benchmark can avoid most of it
 
-* Benchmark 
+* Benchmark
 
 .code codes/slug_test.go /START BENCH/,/END BENCH/
 
@@ -60,14 +60,4 @@ Profiling is post mortem, test or benchmark can avoid most of it
 - https://articles.engineers.my/golang-profiling-and-handling-http-disconnection/
 - https://blog.golang.org/profiling-go-programs
 
-* This needs to be finished within 30 minutes.
-
-What should I prepare.
-Sample project that doesn't work. Put each amendment into individual project.
-Show something that drains memory, bad string allocation.
-
-Golang profiler, show problematic program and how to identify them.
-Show hook via http handlers.
-Since 1.9, profiling symbols are built-in.
-Profiler is for post mortem analysis.
-Show profiling via benchmark, also show benchmark.
+* Bonus
