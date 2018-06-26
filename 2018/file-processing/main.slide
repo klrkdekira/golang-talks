@@ -1,0 +1,65 @@
+A Quick Start to Go
+File Processing
+Tags: go, golang
+
+Chee Leong
+Tuxuri
+klrkdekira@gmail.com
+https://github.com/klrkdekira
+@tztzel
+
+* Cut to the chase
+
+* To open a file
+
+.code codes/simplest.go /START_a/,/END_a/
+
+* Read the contents
+
+.play codes/simplest.go /START_b/,/END_b/
+
+Problem?
+
+- Read everything at once to the memory
+
+* bufio.Scanner
+
+Works with io.Reader
+
+* Scanner at work
+
+Read the first row
+
+.play codes/scanner.go /START/,/END/
+
+Read multiple rows
+
+.play codes/scanner_loop.go /START/,/END/
+
+Problem?
+
+- Blocking
+
+* Buffering via Channel
+
+- Go channel is not buffer by default
+
+.code codes/buffer.go
+
+* In action
+
+.play codes/buffer_demo.go /START/,/END/
+
+Problem?
+
+- Go channel requires consumer
+
+* Simple consumer
+
+.code codes/buffer_consumer.go
+
+* Read as we go
+
+.play codes/consumer.go /START/,/END/
+
+* Notable mention, io.Pipe
