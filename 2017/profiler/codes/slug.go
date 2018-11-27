@@ -3,6 +3,7 @@ package main
 // START IMPORT
 
 import (
+	"context"
 	"fmt"
 	"log"
 	"net/http"
@@ -20,7 +21,12 @@ func main() {
 	})
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		wasteCycle()
+		// context.WithValue(parent context.Context, key interface{}, val interface{})
+		// message, ok := iobject.(string)
+		ctx, cancel := context.WithTimeout(r.Context(), 10*time.Second)
+		defer cancel()
+
+		wasteCycle(ctx)
 		fmt.Fprint(w, "Hello, World")
 	})
 
@@ -31,13 +37,13 @@ func main() {
 
 // START WASTE
 
-func wasteCycle() {
-	timeout := time.After(60 * time.Second)
+func wasteCycle(ctx context.Context) {
 	var i int64
 	var s []int64
 	for {
 		select {
-		case <-timeout:
+		case <-ctx.Done():
+			log.Println("client disconnected")
 			return
 		default:
 			s = append(s, i)

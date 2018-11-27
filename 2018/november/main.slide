@@ -1,0 +1,72 @@
+Golang Meetup November 2018
+Tags: go, golang
+
+* Buzz Corner
+
+* 2018 Go User Survey
+
+.iframe https://blog.golang.org/survey2018 480 960
+
+.link https://blog.golang.org/survey2018
+
+* Rob Pike on Go 2 Draft Specifications
+
+.image assets/robpike.png 480 800
+
+.link https://www.youtube.com/watch?v=RIvL2ONhFBI
+
+* More Go Lua
+
+Microsoft releases a Lua 5.3 engine for Azure.
+
+.image assets/microsoftgo.jpeg 280 800
+
+.link https://github.com/Azure/golua
+
+Photo credit [[https://hackernoon.com/the-best-career-advice-ive-received-so-far-is-never-turn-down-an-interview-7586ca5b7ef8][ashleymcnamara]]
+
+* Visualise pprof with speedscope
+
+.image assets/speedscope.gif 450 600
+
+.link https://github.com/jlfwong/speedscope
+
+* dive
+
+A utility for docker
+
+.image assets/dive.gif 450 800
+
+.link https://github.com/wagoodman/dive
+
+* GraphQL with GraphQL-Go.
+
+by James Tan
+
+* Lightning round, Tips and Tricks
+
+* Hiring Shout Out
+
+.image assets/gophermega.jpg 480 600
+
+* Presentation
+
+This presentation is powered by Go Present.
+   go get golang.org/x/tools/cmd/present
+   present
+
+.link https://godoc.org/golang.org/x/tools/present
+
+* How to reach us
+
+Go to our Facebook Group to find out more
+.link https://www.facebook.com/groups/mygolang/
+Meetup
+.link https://www.meetup.com/Golang-Kuala-Lumpur/
+
+Telegram Chat
+
+Golang Malaysia, feat Rust and Dart
+.link https://t.me/joinchat/AAAAAD_0LOtBImDV8gn0jA
+Belajar Golang
+.link https://t.me/joinchat/AAAAAEF5prptfwTvnEhZng
