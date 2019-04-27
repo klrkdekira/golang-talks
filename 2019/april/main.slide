@@ -1,0 +1,77 @@
+Golang Meetup April 2019
+30 April 2019
+Tags: go, golang
+
+Golang Malaysia
+
+* Current version
+
+1.12.4
+
+Released 2019/04/11
+
+* Sponsor
+
+.image assets/mudah_logo.svg
+
+* Buzz Corner
+
+* Caddy 1.0 Released
+
+.link https://caddyserver.com/
+
+* Jingo, a fast JSON encoder
+
+.link https://bet365techblog.com/open-sourcing-jingo-a-faster-json-encoder-for-go
+
+* An Overview of Go's Tooling
+
+.link https://www.alexedwards.net/blog/an-overview-of-go-tooling
+
+* Free Gophers Pack
+
+.link https://github.com/MariaLetta/free-gophers-pack
+
+.image assets/everythingok.png 400 640
+
+* Talks
+
+* Profiling and Metrics
+
+By Chee Leong
+
+* Tips and Tricks
+
+* Hiring Shout Out
+
+.image assets/gophermega.jpg 480 600
+
+* Presentation
+
+This presentation is powered by Go Present.
+   go get golang.org/x/tools/cmd/present
+   present
+
+.link https://godoc.org/golang.org/x/tools/present
+
+* How to reach us
+
+Go to our Facebook Group to find out more
+.link https://www.facebook.com/groups/mygolang/
+Meetup
+.link https://www.meetup.com/Golang-Kuala-Lumpur/
+
+Telegram Chat
+
+Golang Malaysia, feat Rust and Dart
+.link https://t.me/joinchat/AAAAAD_0LOtBImDV8gn0jA
+Belajar Golang
+.link https://t.me/joinchat/AAAAAEF5prptfwTvnEhZng
+
+* Community
+
+Support, Event Organising and Volunteering
+.link https://engineers.my/
+
+Meetup Calendar
+.link https://devkami.com/page/meetups/

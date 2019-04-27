@@ -21,6 +21,8 @@ func main() {
 	})
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		// context.WithValue(parent context.Context, key interface{}, val interface{})
+		// message, ok := iobject.(string)
 		ctx, cancel := context.WithTimeout(r.Context(), 10*time.Second)
 		defer cancel()
 
@@ -28,10 +30,7 @@ func main() {
 		fmt.Fprint(w, "Hello, World")
 	})
 
-	err := http.ListenAndServe(":8080", nil)
-	if err != nil {
-		panic(err)
-	}
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
 // END MAIN

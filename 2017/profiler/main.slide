@@ -1,4 +1,5 @@
-The Show of Profile
+Quick Guide into Golang Profiling
+Updated: 30 April 2019
 Tags: go, golang
 
 Chee Leong
@@ -37,7 +38,7 @@ Your `wasteCycle` might be your misbehaving codes.
 
 * Profiler
 
-Out of the box support
+Came out of the box
 
 - [[https://golang.org/pkg/runtime/pprof/][runtime/pprof]]
 - [[https://golang.org/pkg/net/http/pprof/][net/http/pprof]]
@@ -45,7 +46,9 @@ Out of the box support
 
 * However...
 
-Profiling is post mortem, test or benchmark can avoid most of it
+Profiling is for post mortem analysis.
+
+Test and benchmark are the preventive action.
 
 * Benchmark
 
