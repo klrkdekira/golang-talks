@@ -1,0 +1,60 @@
+Metrics in Golang
+30 April 2019
+Tags: go, golang, Metrics
+
+Chee Leong
+Tuxuri
+cheeleong@tuxuri.com
+@tztzel
+
+* Reading list 
+: hello world
+
+.link https://landing.google.com/sre/books/
+
+.image assets/srebook.png 500 380
+
+* Story telling 
+
+- Whitebox vs Blackbox
+- Why metrics?
+- What's the differences between log parsing, tracing?
+
+* Stats
+
+expvar 
+
+.link https://golang.org/pkg/expvar/
+
+* Time series database
+
+- Prometheus TSDB
+- OpenTSDB
+- InfluxDB
+
+* How's a time series entry looks like
+
+- cpu,host=serverA,region=us_west value=0.64
+- temperature,machine=unit42,type=assembly external=25,internal=37
+
+Taken from InfluxDB's documentation
+
+* Prometheus
+
+.link https://prometheus.io/
+
+.image assets/prometheus.png 400 400
+
+* How's Prometheus entry
+
+* Prometheus Metric Types
+
+* Grafana
+
+Visualisation and Alert
+
+.link https://grafana.com/
+
+.image assets/grafana.png   
+
+* Questions?

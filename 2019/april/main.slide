@@ -16,6 +16,14 @@ Released 2019/04/11
 
 * Buzz Corner
 
+* Improved Error Handling for 1.13
+
+.link https://crawshaw.io/blog/xerrors
+
+Try them out now
+
+golang.org/x/xerrors
+
 * Caddy 1.0 Released
 
 .link https://caddyserver.com/
