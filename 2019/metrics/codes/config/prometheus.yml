@@ -1,0 +1,10 @@
+global:
+  scrape_interval: 15s
+  external_labels:
+    monitor: "golang-my"
+
+scrape_configs:
+  - job_name: "golang-my-demo"
+    scrape_interval: 5s
+    static_configs:
+      - targets: ["172.16.123.1:8080"]

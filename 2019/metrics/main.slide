@@ -1,4 +1,4 @@
-Metrics in Golang
+A Short Introduction to Metrics
 30 April 2019
 Tags: go, golang, Metrics
 
@@ -7,14 +7,14 @@ Tuxuri
 cheeleong@tuxuri.com
 @tztzel
 
-* Reading list 
+* Reading list
 : hello world
 
 .link https://landing.google.com/sre/books/
 
 .image assets/srebook.png 500 380
 
-* Story telling 
+* Story telling
 
 - Whitebox vs Blackbox
 - Why metrics?
@@ -22,7 +22,7 @@ cheeleong@tuxuri.com
 
 * Stats
 
-expvar 
+expvar
 
 .link https://golang.org/pkg/expvar/
 
@@ -45,9 +45,23 @@ Taken from InfluxDB's documentation
 
 .image assets/prometheus.png 400 400
 
-* How's Prometheus entry
+* How does it work?
+
+* How does it look like?
+
+- promhttp_metric_handler_requests_total{code="200"} 9
+- go_info{version="go1.12"} 1
+- random_numbers_bucket{le="-1.9999999999999991"} 12
+
+- histogram_quantile(0.95, sum(rate(random_numbers_bucket[10s])) by (le))
+
 
 * Prometheus Metric Types
+
+- Counter
+- Gauge
+- Summary
+- Histogram
 
 * Grafana
 
@@ -55,6 +69,6 @@ Visualisation and Alert
 
 .link https://grafana.com/
 
-.image assets/grafana.png   
+.image assets/grafana.png
 
 * Questions?
