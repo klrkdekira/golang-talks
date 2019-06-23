@@ -1,0 +1,76 @@
+Golang Meetup June 2019
+30 June 2019
+Tags: go, golang
+
+Golang Malaysia
+
+* Current version
+
+1.12.6
+
+Released 2019/06/12
+
+* Buzz Corner
+
+* GopenPGP, open source encryption library
+
+.link https://protonmail.com/blog/openpgp-golang/
+
+* The Go Playground Has Just Gotten A Lot Better
+
+- Third party import support. Packages get pulled in via proxy.golang.org.
+- Multi-file support. You can now put multiple files into the same playground instance. This is really cool.
+
+.link play.golang.org
+
+* Compile-time Dependancy Injection for Go
+
+.link https://github.com/google/wire
+
+* Talks
+
+* JSON Processing Tips and Tricks
+
+By Chee Leong
+
+* go-pardocs
+
+.link https://github.com/Sinar/go-pardocs
+
+By Michael Leow
+
+* Tips and Tricks
+
+* Hiring Shout Out
+
+.image assets/gophermega.jpg 480 600
+
+* Presentation
+
+This presentation is powered by Go Present.
+   go get golang.org/x/tools/cmd/present
+   present
+
+.link https://godoc.org/golang.org/x/tools/present
+
+* How to reach us
+
+Go to our Facebook Group to find out more
+.link https://www.facebook.com/groups/mygolang/
+Meetup
+.link https://www.meetup.com/Golang-Kuala-Lumpur/
+
+Telegram Chat
+
+Golang Malaysia, feat Rust and Dart
+.link https://t.me/joinchat/AAAAAD_0LOtBImDV8gn0jA
+Belajar Golang
+.link https://t.me/joinchat/AAAAAEF5prptfwTvnEhZng
+
+* Community
+
+Support, Event Organising and Volunteering
+.link https://engineers.my/
+
+Meetup Calendar
+.link https://devkami.com/page/meetups/
