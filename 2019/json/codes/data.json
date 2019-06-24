@@ -1,0 +1,8 @@
+{
+  "msg": "hello, world",
+  "count": 10,
+  "shape_type": "circle",
+  "shape": {
+    "radius": 10
+  }
+}

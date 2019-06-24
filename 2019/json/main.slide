@@ -1,0 +1,111 @@
+Different Faces of JSON Processing
+25 June 2019
+Tags: go, golang
+
+Chee Leong
+Tuxuri
+cheeleong@tuxuri.com
+@tztzel
+
+* What's the big deal?
+
+- No generics
+- Arbitrary JSON format
+- `interface{}` as catch all, but painful to use
+- Encoding is generous but decode isn't
+
+* My Questions
+
+- How do you document your API? (OpenAPI?)
+- GraphQL might be the better choice? But resolver is still static.
+
+* Interface
+
+.play codes/interface_example.go
+
+* Getting Started
+
+.play codes/0_simple_map.go
+
+* Problem
+
+.play codes/1_different_map.go /START OMIT/,/END OMIT/
+
+* Back to Interface
+
+.play codes/1_different_map_solution.go /START OMIT/,/END OMIT/
+
+* Problem
+
+.play codes/1_type_switch.go /START OMIT/,/END OMIT/
+
+* Tips
+
+`Token` and `Number`
+
+.play codes/1_map_number.go /START OMIT/,/END OMIT/
+
+.link https://golang.org/pkg/encoding/json/#Number
+
+.link https://golang.org/pkg/encoding/json/#Token
+
+* My Favourite Way
+
+.code codes/2_simple_struct.go /START A OMIT/,/END A OMIT/
+
+* Code
+
+.play codes/2_simple_struct.go /START OMIT/,/END OMIT/
+
+* Problem
+
+.code codes/2_problem.go /START A OMIT/,/END A OMIT/
+
+* Part 2
+
+.play codes/2_problem.go /START B OMIT/,/END B OMIT/
+
+* Again
+
+The same
+
+.code codes/2_raw_message.go /START A OMIT/,/END A OMIT/
+
+* But I want this
+
+Notice `RawMessage`?
+.code codes/2_raw_message.go /START B OMIT/,/END B OMIT/
+
+.link https://golang.org/pkg/encoding/json/#RawMessage
+
+* Deferred Decoding
+
+.play codes/2_raw_message.go /START C OMIT/,/END C OMIT/
+
+* Decode and Handled Separately
+
+.code codes/2_raw_message.go /START D OMIT/,/END D OMIT/
+
+* Tips
+
+.code codes/3_headache.go /START A OMIT/,/END A OMIT/
+
+* Let's try
+
+It works!
+
+.play codes/3_headache.go /START B OMIT/,/END B OMIT/
+
+* If you really want it :-(
+
+.play codes/4_reflect.go /START A OMIT/,/END A OMIT/
+
+* Build your own
+
+.play codes/4_reflect.go /START B OMIT/,/END B OMIT/
+
+* Conclusion
+
+- What should I use? It depends.
+
+* Questions?

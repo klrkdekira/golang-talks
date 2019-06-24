@@ -14,8 +14,14 @@ import (
 // END IMPORT
 
 // START MAIN
-
 func main() {
+	go func() {
+		s := []string{}
+		for {
+			s = append(s, "")
+		}
+	}()
+
 	http.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprint(w, "OK")
 	})
@@ -24,7 +30,8 @@ func main() {
 		ctx, cancel := context.WithTimeout(r.Context(), 10*time.Second)
 		defer cancel()
 
-		wasteCycle(ctx)
+		_ = ctx
+		// wasteCycle(ctx)
 		fmt.Fprint(w, "Hello, World")
 	})
 
