@@ -1,0 +1,90 @@
+Golang Meetup August 2019
+27 August 2019
+Tags: go, golang
+
+Golang Malaysia
+
+* Current version
+
+1.12.7
+
+Released 2019/07/08
+
+* Buzz Corner
+
+- The season of generics
+- Golang homepage has a new look
+
+* There is no more `try`
+
+.link https://github.com/golang/go/issues/32437#issuecomment-512035919
+
+* Swags for sale
+
+.link https://go-store.io/
+
+* A draft design of contracts for Go
+
+.link https://go.googlesource.com/proposal/+/master/design/go2draft-contracts.md
+
+* Go proposal process by Russ Cox
+
+.link https://research.swtch.com/proposals-intro
+
+* Yaegi - a Golang intepreter
+
+.link https://blog.containo.us/announcing-yaegi-263a1e2d070a
+
+* TinyGo reaches 0.7.0
+
+.link https://github.com/tinygo-org/tinygo/releases/tag/v0.7.0
+
+* PDF for Go
+
+.link https://github.com/unidoc/unipdf
+
+* OctoSQL - query tool for data
+
+.link https://github.com/cube2222/octosql
+
+* Talks
+
+* Delve, the debugger for Golang
+
+By Chee Leong
+
+* Tips and Tricks
+
+* Hiring Shout Out
+
+.image assets/gophermega.jpg 480 600
+
+* Presentation
+
+This presentation is powered by Go Present.
+   go get golang.org/x/tools/cmd/present
+   present
+
+.link https://godoc.org/golang.org/x/tools/present
+
+* How to reach us
+
+Go to our Facebook Group to find out more
+.link https://www.facebook.com/groups/mygolang/
+Meetup
+.link https://www.meetup.com/Golang-Kuala-Lumpur/
+
+Telegram Chat
+
+Golang Malaysia, feat Rust and Dart
+.link https://t.me/joinchat/AAAAAD_0LOtBImDV8gn0jA
+Belajar Golang
+.link https://t.me/joinchat/AAAAAEF5prptfwTvnEhZng
+
+* Community
+
+Support, Event Organising and Volunteering
+.link https://engineers.my/
+
+Meetup Calendar
+.link https://devkami.com/page/meetups/

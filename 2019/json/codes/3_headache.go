@@ -27,7 +27,7 @@ type (
 
 func main() {
 	//START B OMIT
-	data := `{"title":"hello","content":"hello, world"}`
+	data := `{"title":"hello","content":"hello, world", "color":"red"}`
 
 	combined := new(Combined)
 	err := json.Unmarshal([]byte(data), &combined)
@@ -36,5 +36,6 @@ func main() {
 	}
 	fmt.Printf("%#v\n", combined)
 	fmt.Println(combined.Title)
+	fmt.Println(combined.Radius)
 	//END B OMIT
 }
