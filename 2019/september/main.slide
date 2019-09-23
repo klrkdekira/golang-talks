@@ -1,0 +1,119 @@
+Golang Meetup September 2019
+23 September 2019
+Tags: go, golang
+
+Golang Malaysia
+
+* Current version
+
+1.13
+
+Released 2019/09/03
+
+- The go command now downloads and authenticates modules using the Go module mirror and Go checksum database by default
+- Improvements to number literals
+- Error wrapping
+- TLS 1.3 on by default
+- Improved modules support
+
+Full release notes
+
+.link https://golang.org/doc/go1.13
+
+* Buzz Corner
+
+* gopy
+
+CPython extension module from a go package
+
+.link https://github.com/go-python/gopy
+
+* gorilla/websocket
+
+v1.4.1 fixes potential DoS vector, please upgrade
+
+.link https://github.com/gorilla/websocket/releases
+
+* Dgraph
+
+v1.1.0
+
+.link https://github.com/dgraph-io/dgraph/releases
+
+* GoLand 2019.3 Early Access
+
+.link https://blog.jetbrains.com/go/2019/09/12/goland-2019-3-opens-its-eap/
+
+* TinyGo
+
+LLVM backend
+
+v0.8.0
+
+.link https://github.com/tinygo-org/tinygo/releases/tag/v0.8.0
+
+* fasthttp
+
+v1.5.0
+
+.link https://github.com/valyala/fasthttp/releases
+
+* Traefik
+
+Edge router
+
+v2.0
+
+.link https://blog.containo.us/traefik-2-0-6531ec5196c2
+
+* Articles
+
+Building a better Go linker
+
+.link https://docs.google.com/document/d/1D13QhciikbdLtaI67U6Ble5d_1nsI4befEd6_k1z91U/view
+
+Tracking Down "Memory Leak" in a Go Microservice
+
+.link https://blog.detectify.com/2019/09/05/how-we-tracked-down-a-memory-leak-in-one-of-our-go-microservices/
+
+* Talk
+
+* Parallelism in Golang and How it works in Mudah.my
+
+By Ashraful
+
+* Tips and Tricks
+
+* Hiring Shout Out
+
+.image assets/gophermega.jpg 480 600
+
+* Presentation
+
+This presentation is powered by Go Present.
+   go get golang.org/x/tools/cmd/present
+   present
+
+.link https://godoc.org/golang.org/x/tools/present
+
+* How to reach us
+
+Go to our Facebook Group to find out more
+.link https://www.facebook.com/groups/mygolang/
+Meetup
+.link https://www.meetup.com/Golang-Kuala-Lumpur/
+
+Telegram Chat
+
+Golang Malaysia, feat Rust and Dart
+.link https://t.me/joinchat/AAAAAD_0LOtBImDV8gn0jA
+Belajar Golang
+.link https://t.me/joinchat/AAAAAEF5prptfwTvnEhZng
+
+* Community
+
+Support, Event Organising and Volunteering
+.link https://engineers.my/
+
+Meetup Calendar
+.link https://devkami.com/page/meetups/
