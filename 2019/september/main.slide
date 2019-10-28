@@ -66,6 +66,12 @@ v2.0
 
 .link https://blog.containo.us/traefik-2-0-6531ec5196c2
 
+* nhooyr.io/websocket
+
+v1.6.2 released with WASM support
+
+.link https://github.com/nhooyr/websocket
+
 * Articles
 
 Building a better Go linker
@@ -75,6 +81,10 @@ Building a better Go linker
 Tracking Down "Memory Leak" in a Go Microservice
 
 .link https://blog.detectify.com/2019/09/05/how-we-tracked-down-a-memory-leak-in-one-of-our-go-microservices/
+
+PSA: Go 1.13 introduces 15 sec server TCP keep-alives by default
+
+.link https://www.reddit.com/r/golang/comments/d7v7dn/psa_go_113_introduces_15_sec_server_tcp/
 
 * Talk
 

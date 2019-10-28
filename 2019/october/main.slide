@@ -1,0 +1,89 @@
+Golang Meetup October 2019
+29 October 2019
+Tags: go, golang
+
+Golang Malaysia
+
+* Current version
+
+1.13.3
+
+Released 2019/10/17
+
+* Buzz Corner
+
+* Ristretto
+
+A High-Performance Go Cache
+
+.link https://blog.dgraph.io/post/introducing-ristretto-high-perf-go-cache/
+
+* Watermill
+
+A message stream library
+
+.link https://github.com/ThreeDotsLabs/watermill
+
+* Gizmo
+
+Microservice toolkit from The New York Times
+
+.link https://github.com/nytimes/gizmo
+
+* v8go
+
+Execute Javacript from Go
+
+.link https://github.com/rogchap/v8go
+
+* benchdraw
+
+Benchmark output to Pictures
+
+.link https://github.com/cep21/benchdraw
+
+* Article
+
+* Understanding and Exploiting Go’s DSA Verify Vulnerability
+
+.link https://paul.querna.org/articles/2019/10/24/dsa-verify-poc/
+
+* Talk
+
+* Mysterious Go Talk by Michael Leow
+
+* Tips and Tricks
+
+* Hiring Shout Out
+
+.image assets/gophermega.jpg 480 600
+
+* Presentation
+
+This presentation is powered by Go Present.
+   go get golang.org/x/tools/cmd/present
+   present
+
+.link https://godoc.org/golang.org/x/tools/present
+
+* How to reach us
+
+Go to our Facebook Group to find out more
+.link https://www.facebook.com/groups/mygolang/
+Meetup
+.link https://www.meetup.com/Golang-Kuala-Lumpur/
+
+Telegram Chat
+
+Golang Malaysia, feat Rust and Dart
+.link https://t.me/joinchat/AAAAAD_0LOtBImDV8gn0jA
+Belajar Golang
+.link https://t.me/joinchat/AAAAAEF5prptfwTvnEhZng
+
+* Community
+
+Support, Event Organising and Volunteering
+.link https://engineers.my/
+
+Meetup Calendar
+.link https://devkami.com/page/meetups/
