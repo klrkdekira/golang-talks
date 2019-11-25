@@ -1,0 +1,52 @@
+Performance Tips and Tricks 2019
+26 November 2019
+Tags: go, golang
+
+Chee Leong
+Tuxuri
+
+* Notes
+
+Allocation is not free
+
+Benchmark
+
+Profiler
+
+Go compiler SSA
+
+Inline
+
+sync pool
+
+mutex
+
+Bound check
+
+escape analysis
+
+gcflags
+
+go tool compile --help
+
+Heap vs Stack
+
+https://golang.org/doc/faq#stack_or_heap
+
+go tool objdump
+
+go build -gcflags -m
+
+* Presentation
+
+This presentation is powered by Go Present.
+   go get golang.org/x/tools/cmd/present
+   present
+
+.link https://godoc.org/golang.org/x/tools/present
+
+* Notable read
+
+.link https://dubbelboer.com/talks/2019-05-20-go-performance-ams/#1
+.link https://dave.cheney.net/2018/01/08/gos-hidden-pragmas
+.link https://github.com/golang/go/wiki/CompilerOptimizations
