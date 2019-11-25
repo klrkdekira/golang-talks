@@ -1,0 +1,89 @@
+Golang Meetup November 2019
+26 November 2019
+Tags: go, golang
+
+Golang Malaysia
+
+* Current version
+
+1.13.4
+
+Released 2019/10/31
+
+* GoTurns10
+
+.image assets/gopher10thposter.jpg 480 640
+
+.link https://blog.golang.org/10years
+
+* Take pictures
+
+* Buzz Corner
+
+* Go.dev 
+
+New resource hub
+
+.link https://blog.golang.org/go.dev
+
+* Go Developer Survey 2019
+
+.link https://google.qualtrics.com/jfe/form/SV_b1xqnBCMpZAhJZ3
+
+* sourcegraph's style guide 
+
+.link https://about.sourcegraph.com/handbook/engineering/go_style_guide
+
+* Pkger, static file embedding
+
+.link https://blog.gobuffalo.io/introducing-pkger-static-file-embedding-in-go-1ce76dc79c65
+
+.link https://github.com/markbates/pkger
+
+* golangci-lint 
+
+.link https://github.com/golangci/golangci-lint
+
+* Sneak peak into 1.4
+
+.link https://twitter.com/i/web/status/1189631604324327424
+
+* Talk
+
+* Golang Optimisation Tips by Chee Leong
+
+* Tips and Tricks
+
+* Hiring Shout Out
+
+.image assets/gophermega.jpg 480 600
+
+* Presentation
+
+This presentation is powered by Go Present.
+   go get golang.org/x/tools/cmd/present
+   present
+
+.link https://godoc.org/golang.org/x/tools/present
+
+* How to reach us
+
+Go to our Facebook Group to find out more
+.link https://www.facebook.com/groups/mygolang/
+Meetup
+.link https://www.meetup.com/Golang-Kuala-Lumpur/
+
+Telegram Chat
+
+Golang Malaysia, feat Rust and Dart
+.link https://t.me/joinchat/AAAAAD_0LOtBImDV8gn0jA
+Belajar Golang
+.link https://t.me/joinchat/AAAAAEF5prptfwTvnEhZng
+
+* Community
+
+Support, Event Organising and Volunteering
+.link https://engineers.my/
+
+Meetup Calendar
+.link https://devkami.com/page/meetups/
