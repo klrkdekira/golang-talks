@@ -1,0 +1,135 @@
+Golang Meetup February 2020
+25 February 2020
+Tags: go, golang
+
+Golang Malaysia
+
+* Current version
+
+1.13.8
+
+Released 2020/02/12
+
+* We got swags
+
+* Buzz Corner
+
+* pigo - Pure Go face detection
+
+.link https://github.com/esimov/pigo
+
+* Kubethanos: Kill Half of Your Kubernetes Pods at Random
+
+.link https://github.com/berkay-dincer/kubethanos
+
+* A Proposal for Bringing Static File Embedding to cmd/go
+
+.link https://github.com/golang/go/issues/35950
+
+* sqlc - Compile SQL queries to type-safe Go
+
+.link https://conroy.org/introducing-sqlc
+
+* Dynamically Instrumenting Go Programs
+
+.link https://www.youtube.com/watch?v=de9cVAx6REA
+
+* Inlined defers in Go
+
+.link https://rakyll.org/inlined-defers/
+
+* Brad Fitzpatrick left Google
+
+.link https://bradfitz.com/2020/01/27/leaving-google
+
+* Proposals for Go 1.15
+
+.link https://blog.golang.org/go1.15-proposals
+
+* Continuous Profiling Go applications running in Kubernetes
+
+.link https://gianarb.it/blog/continuous-profiling-go-apps-in-kubernetes
+
+* Advanced Debugging Techniques of Go Code
+
+.link https://www.youtube.com/watch?v=2kjmLQY8RJk
+
+* Why Discord is switching from Go to Rust
+
+.link https://blog.discordapp.com/why-discord-is-switching-from-go-to-rust-a190bbca2b1f
+
+* Go 1.14 RC1 is out
+
+.link https://tip.golang.org/doc/go1.14
+
+* The State of Go 2020 since 1.12
+
+.link https://www.youtube.com/watch?v=0c-1KJwSMCw
+
+.link https://speakerdeck.com/campoy/the-state-of-go-2020
+
+* Go: Discovery of the Trace Package
+
+.link https://medium.com/a-journey-with-go/go-discovery-of-the-trace-package-e5a821743c3c
+
+* Go: Inlining Strategy & Limitation
+
+.link https://medium.com/a-journey-with-go/go-inlining-strategy-limitation-6b6d7fc3b1be
+
+* Fake Data Generator for Struct
+
+.link https://github.com/bxcodec/faker
+
+* simdjson-go: Parsing Gigabytes of JSON Per Second in Go
+
+.link https://blog.min.io/simdjson-go-parsing-gigabyes-of-json-per-second-in-go/
+
+* simdjson-go: Parsing Gigabytes of JSON Per Second in Go
+
+.link https://blog.min.io/simdjson-go-parsing-gigabyes-of-json-per-second-in-go/
+
+* pkg.go.dev to be open sourced
+
+.link https://blog.golang.org/pkg.go.dev-2020
+
+* Credits
+
+.link https://golangweekly.com
+
+* Showcase
+
+* Tips and Tricks
+
+* Hiring Shout Out
+
+.image assets/gophermega.jpg 480 600
+
+* Presentation
+
+This presentation is powered by Go Present.
+   go get golang.org/x/tools/cmd/present
+   present
+
+.link https://godoc.org/golang.org/x/tools/present
+
+* How to reach us
+
+Go to our Facebook Group to find out more
+.link https://www.facebook.com/groups/mygolang/
+Meetup
+.link https://www.meetup.com/Golang-Kuala-Lumpur/
+
+Telegram Chat
+
+Golang Malaysia, feat Rust and Dart
+.link https://t.me/joinchat/AAAAAD_0LOtBImDV8gn0jA
+Belajar Golang
+.link https://t.me/joinchat/AAAAAEF5prptfwTvnEhZng
+
+* Community
+
+Support, Event Organising and Volunteering
+.link https://engineers.my/
+
+Meetup Calendar
+.link https://devkami.com/page/meetups/
