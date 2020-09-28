@@ -1,0 +1,149 @@
+Go Kuala Lumpur September 2020
+29 September 2020
+Tags: go, golang
+
+Reboot and revision
+
+* Current version
+
+1.15.2
+
+Released 2020/09/09
+
+* Buzz Corner
+
+Feel free to add yours in the comment section
+
+* Go Developer Survey 2019 Results
+
+.link https://blog.golang.org/survey2019-results
+
+* Generics
+
+It's coming,
+
+- contract is dropped
+- simple sum type functionality
+- parentheses to square brackets.
+
+Draft Design Document
+
+.link https://go.googlesource.com/proposal/+/refs/heads/master/design/go2draft-type-parameters.md
+
+go2go Playground
+
+.link https://go2goplay.golang.org/
+
+* Draft for embedded static assets
+
+.link https://go.googlesource.com/proposal/+/master/design/draft-embed.md
+
+* pkg.go.dev is open source
+
+.link https://blog.golang.org/pkgsite
+
+* GORM 2.0 is released 
+
+- Incompatible with version 1 :-(
+- Context support
+- Batch mode
+- Dry run mode
+- Named argument
+- Field permission
+- Prometheus plugin <3
+
+Release note, check it out
+
+.link https://gorm.io/docs/v2_release_note.html
+
+* A new Go API for Protocol Buffers
+
+.link https://blog.golang.org/protobuf-apiv2
+
+* Broccoli 
+
+Broccoli uses brotli compression to embed a virtual file system of static files inside Go executables.
+
+.link https://github.com/aletheia-icu/broccoli
+
+* Liftbridge
+
+Kafka-like pubsub log API based on NATS.
+
+.link https://github.com/liftbridge-io/liftbridge
+
+Also check out NATS
+
+.link https://github.com/nats-io/nats-server
+
+* Caddy v2
+
+.link https://caddyserver.com/v2
+
+Also acquired by Apilayer.
+
+* cockcroachdb/errors
+
+Drop in replacement for standard Go `errors`, with network portability
+
+.link https://github.com/cockroachdb/errors
+
+* modernc
+
+SQLite driver in pure Go. 
+
+.link https://godoc.org/modernc.org/sqlite
+
+* gopls 
+
+Version 0.5.0 released
+
+.link https://github.com/golang/tools/releases/tag/gopls%2Fv0.5.0
+
+* GitHub CLI
+
+Control GitHub via CLI.
+
+Written in Go.
+
+.link https://github.blog/2020-09-17-github-cli-1-0-is-now-available/
+
+* TinyGo now supports ESP32 and ESP8266
+
+.link https://aykevl.nl/2020/09/tinygo-esp32
+
+* Go 1.15
+
+.link https://golang.org/doc/go1.15
+
+Released 2020/08/11
+
+* Presentation
+
+This presentation is powered by Go Present.
+   go get golang.org/x/tools/cmd/present
+   present
+
+.link https://godoc.org/golang.org/x/tools/present
+
+* How to reach us
+
+Go to our Facebook Group to find out more
+.link https://www.facebook.com/groups/mygolang/
+Meetup
+.link https://www.meetup.com/Golang-Kuala-Lumpur/
+
+Telegram Chat
+
+Golang Malaysia, feat Rust and Dart
+.link https://t.me/joinchat/AAAAAD_0LOtBImDV8gn0jA
+Belajar Golang
+.link https://t.me/joinchat/AAAAAEF5prptfwTvnEhZng
+
+* Community
+
+Support, Event Organising and Volunteering
+.link https://engineers.my/
+
+Meetup Calendar
+.link https://devkami.com/page/meetups/
