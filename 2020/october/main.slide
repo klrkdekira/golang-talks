@@ -1,0 +1,93 @@
+Go Kuala Lumpur October 2020
+27 October 2020
+Tags: go, golang
+
+Go Malaysia
+
+* Current version
+
+1.15.3
+
+Released 2020/10/14
+
+* Buzz Corner
+
+Feel free to add yours in the comment section
+
+* Go Developer Survey 2020
+
+.link https://blog.golang.org/survey2020
+
+* Goodies from Hashicorp
+
+Waypoint (modern workflow to build, deploy, and release across platforms)
+
+.link https://www.waypointproject.io/
+
+Boundary (simple and secure remote access)
+
+.link https://www.hashicorp.com/blog/hashicorp-boundary
+
+* Proposal accepted
+
+Proposal to Convert Slices to Array Pointers Accepted 
+
+.link https://github.com/golang/go/issues/395#issuecomment-708538070
+
+* Prisma client Go 
+
+"auto-generated query builder that enables type-safe database access and reduces boilerplate"
+
+Still in Alpha
+
+.link https://github.com/prisma/prisma-client-go
+
+* rqlite 
+
+"rqlite is a lightweight, distributed relational database, which uses SQLite as its storage engine."
+
+.link https://github.com/rqlite/rqlite
+
+* Speaker moment
+
+Michael Leow
+
+.link https://github.com/leowmjw
+
+AkomaNtoso - go-libs for pardocs + dundocs data extraction
+
+.link https://github.com/Sinar/go-akomantoso/
+
+Hashicorp Boundary
+
+.link https://www.hashicorp.com/blog/hashicorp-boundary
+
+* Presentation
+
+This presentation is powered by Go Present.
+   go get golang.org/x/tools/cmd/present
+   present
+
+.link https://godoc.org/golang.org/x/tools/present
+
+* How to reach us
+
+Go to our Facebook Group to find out more
+.link https://www.facebook.com/groups/mygolang/
+Meetup
+.link https://www.meetup.com/Golang-Kuala-Lumpur/
+
+Telegram Chat
+
+Golang Malaysia, feat Rust and Dart
+.link https://t.me/joinchat/AAAAAD_0LOtBImDV8gn0jA
+Belajar Golang
+.link https://t.me/joinchat/AAAAAEF5prptfwTvnEhZng
+
+* Community
+
+Support, Event Organising and Volunteering
+.link https://engineers.my/
+
+Meetup Calendar
+.link https://devkami.com/page/meetups/

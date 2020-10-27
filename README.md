@@ -21,3 +21,5 @@ Available at
 - [Delve - Golang Debugger - 2019](http://go-talks.appspot.com/github.com/klrkdekira/golang-talks/2019/delve/main.slide)
 - [Optimization Tips & Tricks - 2019](http://go-talks.appspot.com/github.com/klrkdekira/golang-talks/2019/compiler/main.slide)
 - [Golang Meetup Kuala Lumpur February - 2020](http://go-talks.appspot.com/github.com/klrkdekira/golang-talks/2020/february/main.slide)
+- [Golang Meetup Kuala Lumpur September - 2020](http://go-talks.appspot.com/github.com/klrkdekira/golang-talks/2020/september/main.slide)
+- [Golang Meetup Kuala Lumpur October - 2020](http://go-talks.appspot.com/github.com/klrkdekira/golang-talks/2020/october/main.slide)
